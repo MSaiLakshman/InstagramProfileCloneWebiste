@@ -1,0 +1,157 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.header .left {
+    display: flex;
+    align-items: center;
+}
+
+.header .left i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.header h4 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.header .right {
+    display: flex;
+    align-items: center;
+}
+
+.header .right i {
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header .right i:hover {
+    color: #333;
+}
+
+.profileInfo {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profileInfo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.profileStats {
+    display: flex;
+    width: 100px;
+    padding: 5rem;
+    justify-content: space-evenly;
+}
+
+.stat {
+    text-align: center;
+    margin-right: 20px;
+}
+
+.stat h5 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.stat span {
+    font-size: 14px;
+    color: #777;
+}
+
+.bio {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.bio h6 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.bio span {
+    display: inline-block;
+    background-color: #f1f1f1;
+    padding: 5px 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.bio p {
+    font-size: 14px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.highlights {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    gap: 5px;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.story {
+    width: 20%;
+    text-align: center;
+}
+
+.story img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.story h4 {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    padding: 10px; 
+}
+.posts img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.posts img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
